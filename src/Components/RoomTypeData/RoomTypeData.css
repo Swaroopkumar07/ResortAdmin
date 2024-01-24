@@ -1,0 +1,75 @@
+.table_heading{
+    background-color: #F9FAFB !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    color: #8A92A6 !important;
+    padding-left: 10px !important;
+    
+}
+.table_heading_and_icon
+ {
+  display: flex;
+  align-items: center;
+}
+.table_icon{
+    margin-left: 5px !important;
+    height: 16px !important;
+    width: 16px !important;
+    color: #8A92A6;
+}
+.table_data{
+    font-weight: bold !important;
+    font-size: 15px !important;
+    color: #101828 !important;
+    background-color: #FFFFFF !important;
+
+}
+.table_data_and_values{
+    display: flex;
+  align-items: center;
+
+}
+.status_button{
+    background-color: #61C454 !important;
+    color: #344054 !important;
+    border-radius: 8px !important;
+    width: 5vw;
+    height: 5vh;
+    font-size: 14px !important;
+    font-weight: bold !important;
+
+}
+.Hkroom_button{
+    border-color: #D0D5DD !important;
+    border-radius: 8px !important;
+    color: #344054 !important;
+    width: 5vw;
+    height: 5vh;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.previous_page_button{
+    border-color: #D0D5DD !important;
+    border-radius: 8px !important;
+    color: #344054 !important;
+    width: 7vw;
+    height: 6vh;
+    font-size: 14px !important;
+    font-weight: bold !important;
+
+}
+.next_page_button{
+    border-color: #D0D5DD !important;
+    border-radius: 8px !important;
+    color: #344054 !important;
+    width: 5vw;
+    height: 5vh;
+    font-size: 14px !important;
+    font-weight: bold !important;
+
+
+}
+.page_count{
+    font-size: 14px !important;
+    font-weight: bold !important;
+}

@@ -1,0 +1,96 @@
+.roomcard_box {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 50vh;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: EEEEEE;
+  }
+  
+  .roomcard_title {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  .roomcard_divider {
+    display: flex;
+    color: black !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+ 
+    
+  }
+  
+  .room_number {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px;  */
+    
+  }
+  
+  .roomcard_number {
+    font-size: 14px;
+    font-weight: 400;
+    color: #29292A;
+
+    margin-left: 10px;
+  }
+  
+  .roomcard_amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .roomcard_number_values {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #7C6A46;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 4px;
+  }
+  
+  .roomcard_select {
+    display: flex;
+    flex-direction: row;
+    background-color: #E3E3E3;
+    align-items: center;
+    border-radius: 8px;
+    width: 21vw;
+
+  }
+  
+  .roomcard_select_child {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 8px;
+    width: 21vw;
+
+  }
+  
+  .roomcard_select_title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0F1010;
+    width: 10vw; 
+    margin-left: 20px;
+  }
+  
+  .room_prize {
+    background-color: #EEEEEE;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 13px;
+  }
+  

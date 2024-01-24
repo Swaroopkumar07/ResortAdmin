@@ -1,0 +1,93 @@
+.order_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    
+}
+.order_details{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1;
+    width: 13vw;
+    
+}
+.order_details2{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1;
+    width: 15vw;
+
+}
+.order_id{
+    display: flex;
+    justify-content: center;
+    background-color:#14BA6D;
+    border-radius: 10px;
+    width: 10vw;
+   
+}
+.order_id>p{
+    color: #4E5D5D;
+    font-size: 11px;
+    font-weight: bold;
+}
+.odered_person{
+    font-size: 15px;
+    font-weight: bold;
+    color: #101828;
+
+}
+.person_number{
+    font-size: 14px;
+    color: #1D1D1D;
+    font-weight: 400;
+}
+.order_details2>p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #101828;
+
+}
+.order_date >p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #101828;
+    width: 9vw;
+
+}
+.assing_button_and_icon{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 7vw;
+    justify-content: center;
+    height: 6vh;
+    border-color: #B2B2B2;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+.assing_icon{
+    color: #5B9651;
+    width: 2vw !important;
+    height: 6vh !important;
+}
+.assign_button{
+    font-size: 14px;
+    font-weight: bold;
+    color: #344054;
+}
+.cancle_icon{
+    color: #D95151;
+    width: 2vw !important;
+    height: 6vh !important;
+
+}
+.cancle_button{
+    font-size: 14px;
+    font-weight: bold;
+    color: #D95151;
+}
+
+    

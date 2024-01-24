@@ -1,0 +1,54 @@
+
+.Notification_component{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Notification_component_sub{
+    width: 70vw;
+    border: 1px solid #ccc;
+    border-top-color: #7C6A46;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+ 
+}
+.Notification_heading{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: #7C6A46;
+    padding: 15px;
+    margin-top: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.All_notifications{
+    margin-top: -10px;
+}
+.Each_notification{
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.05) !important;
+    border: none !important;
+    border-color: #ddd !important;
+}
+.Each_notification_heading_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+.Each_notification_date{
+    font-size: 12px;
+    color: #bbb;
+    margin-top: -10px;
+    font-weight: 500;
+
+}
+.Each_notification_content{
+    padding-bottom: 1px;
+}
+@media (max-width:500px) {
+    .Notification_component_sub{
+        width: 90vw;
+    }
+
+    
+}
